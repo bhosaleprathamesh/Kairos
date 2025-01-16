@@ -38,7 +38,7 @@ st.title('Weather App')
 st.subheader('Get real-time weather updates for your city!')
 
 # Input city
-city = st.text_input('Enter a city name:', 'London')
+city = st.text_input('Enter a city name:')
 
 
 if city:
