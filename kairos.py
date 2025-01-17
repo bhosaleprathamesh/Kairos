@@ -128,6 +128,7 @@ if city:
             else:
                 uv_description = "Extreme risk, Avoid going outdoors. Stay indoors or seek complete shade."
             i.metric(label="UV Index", value=f"{uv_value} {uv_description}☀️", border=True)
+            st.divider()
 
         # Tab 2: Air Quality
         with tabs[1]:
