@@ -307,6 +307,7 @@ st.markdown(
     """
     <footer style="padding: 10px; margin-top: 50px;">
         <p>Powered by <a href="https://www.weatherapi.com/" target="_blank">WeatherAPI.com</a></p>
+        <p><a href="https://github.com/bhosaleprathamesh" target="_blank"></a></p>
     </footer>
     """,
     unsafe_allow_html=True
