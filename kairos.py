@@ -307,28 +307,10 @@ st.markdown(
     """
     <footer style="padding: 10px; margin-top: 50px;">
         <p>Powered by <a href="https://www.weatherapi.com/" target="_blank">WeatherAPI.com</a></p>
-        <p><a href="https://github.com/bhosaleprathamesh" target="_blank"></a></p>
+        <a href="https://www.weatherapi.com/" title="Free Weather API"><img src='//cdn.weatherapi.com/v4/images/weatherapi_logo.png' alt="Weather data by WeatherAPI.com" border="0"></a>
     </footer>
     """,
     unsafe_allow_html=True
 )
 
-import streamlit as st
-
-# Add "Created by" with GitHub logo at the bottom right
-st.markdown("""
-    <div style="position: fixed; bottom: 10px; right: 10px; font-size: 14px; color: grey; display: flex; align-items: center;">
-        <p style="margin-right: 5px;">Created by</p>
-        <a href="https://github.com/bhosaleprathamesh" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" style="width: 18px;"/>
-        </a>
-    </div>
-""", unsafe_allow_html=True)
-
-# Add "Hosted by Streamlit" at the bottom right
-st.markdown("""
-    <div style="position: fixed; bottom: 10px; right: 80px; font-size: 14px; color: grey;">
-        <p>Hosted by <a href="https://streamlit.io/" target="_blank">Streamlit</a></p>
-    </div>
-""", unsafe_allow_html=True)
 
